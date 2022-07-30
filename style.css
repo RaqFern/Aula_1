@@ -1,3 +1,25 @@
+.CustomContainer {
+  max-width: 1020px;
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width: 1330px) {
+  .CustomContainer{
+    max-width: 900px;
+    padding-left: 32px;
+    padding-right:32px;
+  }
+}
+
+@media (max-width: 767px) {
+  .CustomContainer {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
 *{
   --main-color: rgb(29, 138, 110);
   --main-color-lighter: rgb(45, 206, 166);
